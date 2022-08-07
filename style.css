@@ -21,6 +21,7 @@
 
 body {
     font-family: Roboto-Regular;
+
 }
 
 .header {
@@ -50,8 +51,9 @@ body {
     flex-flow: row wrap;
     flex: 1;
     justify-content: center;
-    gap: 50px;
-    padding: 100px;
+    padding: 150px;
+    gap: 90px;
+    
     
 }
 
@@ -66,6 +68,7 @@ body {
     color: #f9faf8;
     font-family: Roboto-Bold;
     font-size: 48px;
+    
 }
 
 .header-text {
@@ -88,5 +91,115 @@ body {
     height: auto;
     flex: 1;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border-style: none;
+}
+
+.second-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+}
+
+.headline {
+    font-size: 36px;
+    font-family: Roboto-Bold;
+    padding: 50px;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    border: 5px solid #1f2937 ;
+}
+
+.img-and-text-wrapper {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    width: 200px;
+    gap: 10px;
+    color: rgb(93, 93, 93);
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.quote-wrapper {
+    max-width: 800px;
+    padding: 130px;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.quote {
+    font-family: Robot-lightitalic;
+    font-size: 36px;
+}
+
+.author {
+    margin-left: auto;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px 100px 150px;
+
+}
+
+.box-wrapper {
+    background-color: #3882F6;
+    padding: 35px 40px 35px 40px;
+    border-radius: 8px;
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    
+}
+
+.box-headline {
+    color: #f9faf8;
+    font-family: Roboto-Bold;
+    font-size: large;
+}
+
+.box-text {
+    color: #cacbc9;
+}
+
+.box-button {
+    color: #f9faf8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf890;
+    padding: 30px;
+    font-size: small;
 }
 
